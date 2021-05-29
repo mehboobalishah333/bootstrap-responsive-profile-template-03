@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Sidebar 02</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body {
+            background: #343A40
+        }
+        
+        .custom-margin-01 {
+            margin-top: 490px;
+        }
+        
+        @media only screen and (max-width: 924px) {
+            .custom-margin-01 {
+                margin-top: 380px;
+            }
+        }
+        
+        @media only screen and (max-width: 775px) {
+            .custom-margin-01 {
+                margin-top: 340px;
+            }
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .custom-margin-01 {
+                margin-top: 400px;
+            }
+        }
+        
+        @media only screen and (max-width: 767.5px) {
+            .custom-margin-01 {
+                margin-top: 840px;
+            }
+        }
+        
+        @media only screen and (max-width: 683px) {
+            .custom-margin-01 {
+                margin-top: 740px;
+            }
+        }
+        
+        @media only screen and (max-width: 619px) {
+            .custom-margin-01 {
+                margin-top: 640px;
+            }
+        }
+        
+        @media only screen and (max-width: 543px) {
+            .custom-margin-01 {
+                margin-top: 540px;
+            }
+        }
+        
+        @media only screen and (max-width: 479px) {
+            .custom-margin-01 {
+                margin-top: 440px;
+            }
+        }
+        
+        @media only screen and (max-width: 399px) {
+            .custom-margin-01 {
+                margin-top: 370px;
+            }
+        }
+        
+        @media only screen and (max-width: 379px) {
+            .custom-margin-01 {
+                margin-top: 320px;
+            }
+            h1,
+            .h1 {
+                font-size: 1.5rem;
+            }
+        }
+        
+        @media only screen and (max-width: 280px) {
+            .custom-margin-01 {
+                margin-top: 280px;
+            }
+            h1,
+            .h1 {
+                font-size: 1.5rem;
+            }
+        }
+        
+        .development .service-title::before {
+            content: "\f108";
+            display: block;
+            font-family: "fontawesome";
+            color: yellowgreen;
+            font-size: 30px;
+        }
+        
+        .seo-optimization .service-title::before {
+            content: "\f135";
+            display: block;
+            font-family: "fontawesome";
+            color: yellowgreen;
+            font-size: 30px;
+        }
+        
+        .database .service-title::before {
+            content: "\f1c0";
+            display: block;
+            font-family: "fontawesome";
+            color: yellowgreen;
+            font-size: 30px;
+        }
+        
+        .data-security i {
+            display: block;
+            color: yellowgreen;
+            font-size: 30px;
+        }
+        
+        .text-light-50 {
+            color: rgba(220, 220, 220);
+        }
+        
+        .text-green {
+            color: #51e651;
+        }
+        
+        .bg-dark-transparent {
+            background: rgba(0, 0, 0, 0.5);
+        }
+        
+        .my-links li {
+            display: inline-block;
+            padding: 5px 5px;
+            font-size: 10px;
+        }
+        
+        .my-links li i {
+            color: white !important;
+            padding: 5px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        
+        .my-links li:hover {
+            font-size: 14px;
+        }
+        
+        .my-links li i:hover {
+            color: rgba(255, 255, 255, 0.8) !important;
+            background: rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper d-flex align-items-stretch">
+        <nav id="sidebar" style="z-index: 1;">
+            <div class="custom-menu">
+                <button type="button" id="sidebarCollapse" class="btn btn-primary">
+                    <i class="fa fa-bars text-black-50"></i>
+                    <span class="sr-only">Toggle Menu</span>
+                </button>
+            </div>
+            <div class="p-4 pt-5">
+
+                <ul class="list-unstyled components mt-5">
+                    <li class="pt-5">
+                        <a href="#homeSubmenu"> <i class="fa fa-user fa-2x" aria-hidden="true"></i> </a>
+                    </li>
+
+                    <li class="pt-3">
+                        <a href="#"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="#pageSubmenu"><i class="fa fa-edit fa-2x"></i></a>
+
+                    </li>
+                    <li class="pt-3">
+                        <a href="#"><i class="fas fa-toolbox fa-2x"></i></a>
+                    </li>
+                    <li class="pt-3">
+                        <a href="#"><i class="fas fa-glasses fa-2x"></i></a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="">
+
+            <div class="row">
+                <div class="col-xl-5 col-lg-6 col-md-6 p-0">
+                    <div class="card bg-dark text-center text-white">
+                        <img class="card-img" src="images/mypic.jpg" alt="">
+                        <div class="card-img-overlay custom-margin-01">
+
+                            <h1 class="card-title text-light bg-dark-transparent">Mehboob Ali Shah</h1>
+                            <h5 class="card-text text-green bg-dark-transparent">Developer</h5>
+                            <div>
+                                <ul class="list-unstyled my-links">
+                                    <li>
+                                        <a href="#homeSubmenu"> <i class="fa fa-user fa-2x" aria-hidden="true"></i> </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#pageSubmenu"><i class="fa fa-edit fa-2x"></i></a>
+
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fas fa-toolbox fa-2x"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fas fa-glasses fa-2x"></i></a>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-7 col-lg-6 col-md-6 bg-dark ml-md-0 ml-sm-5 ml-3">
+
+                    <!-- about me -->
+                    <h2 class="text-light font-weight-bold">about me</h2>
+
+                    <div class="text-light-50">
+                        <span class="text-green px-2">23 years</span> / <span class="text-green px-2">Web Developer</span> / <span class="text-green px-2">Freelance</span>
+
+                        <p class="small mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum mollitia, quae, aperiam harum magni itaque dolores sit numquam vel tempora eos odit veniam illo similique, tempore obcaecati ea maiores aspernatur? Provident earum doloribus
+                            sequi fugit, architecto at voluptate laudantium, tempora quibusdam assumenda natus qui harum error delectus quasi modi unde totam quas, necessitatibus perspiciatis eaque tempore alias. Voluptates, quos modi!</p>
+                    </div>
+
+                    <hr class="bg-secondary">
+
+                    <!-- my services -->
+                    <h4 class="text-light font-weight-bold">my services</h4>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-6 col-md-6 mt-3">
+                            <!-- developemnt -->
+                            <div class="development">
+                                <h5 class="service-title text-light font-weight-bold">Development</h5>
+                                <div class="service-description text-light-50">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur rerum doloribus quis dolorem culpa?
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-6 mt-3">
+                            <!-- SEO optimization -->
+                            <div class="seo-optimization">
+                                <h5 class="service-title text-light font-weight-bold">SEO Optimization</h5>
+                                <div class="service-description text-light-50">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur rerum doloribus quis dolorem culpa?
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xl-4 col-lg-6 col-md-6 mt-3">
+                            <!-- database -->
+                            <div class="database">
+                                <h5 class="service-title text-light font-weight-bold">Database</h5>
+                                <div class="service-description text-light-50">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur rerum doloribus quis dolorem culpa?
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 mt-3">
+                            <!-- data security -->
+                            <div class="data-security">
+                                <i class="fas fa-shield-alt mb-2"></i>
+                                <h5 class="service-title text-light font-weight-bold">Data Security</h5>
+                                <div class="service-description text-light-50">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur rerum doloribus quis dolorem culpa?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
